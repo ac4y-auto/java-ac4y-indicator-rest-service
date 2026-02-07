@@ -1,4 +1,4 @@
-package ac4y.indicator.service.restful;
+package ac4y.indicator.service.restfulother;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -13,9 +13,9 @@ import ac4y.guid8humanid.service.object.get.*;
 import ac4y.guid8humanid.service.object.set.SetByHumanIdsRequest;
 
 @Path("")
-public class Ac4yIndicatorRestServiceOnTheFly {
-	
-	public Ac4yIndicatorRestServiceOnTheFly() {
+public class Ac4yGUID8HumanIDRestfulService {
+
+	public Ac4yGUID8HumanIDRestfulService() {
 	}
 		
 	@GET
@@ -37,4 +37,4 @@ public class Ac4yIndicatorRestServiceOnTheFly {
 		
 	} // setByHumanIDs
 
-} // Ac4yIndicatorRestServiceOnTheFly
+} // Ac4yGUID8HumanIDRestfulService
