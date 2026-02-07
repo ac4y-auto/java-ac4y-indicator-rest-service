@@ -54,9 +54,17 @@
         <dependency>
             <groupId>ac4y</groupId>
             <artifactId>ac4y-service-common</artifactId>
-            <version>1.0.20260206.1</version>
+            <version>1.0.20260206.3</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/ac4y-auto/*</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
